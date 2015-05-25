@@ -5,12 +5,12 @@
 	"deploymentDir": "",
 	"files": [
 		{
-			"fileName": "contract.sol",
-			"title": "propertyToken"
-		},
-		{
 			"fileName": "index.html",
 			"title": "index.html"
+		},
+		{
+			"fileName": "PropertyToken.sol",
+			"title": "PropertyToken"
 		}
 	],
 	"packageBase64": "",
@@ -43,8 +43,8 @@
 			"title": "Default",
 			"transactions": [
 				{
-					"contractId": "propertyToken",
-					"functionId": "propertyToken",
+					"contractId": "PropertyToken",
+					"functionId": "PropertyToken",
 					"gas": {
 						"value": "250000"
 					},
@@ -55,7 +55,7 @@
 					},
 					"isContractCreation": true,
 					"isFunctionCall": true,
-					"label": "",
+					"label": "propertyToken - propertyToken",
 					"parameters": {},
 					"sender": "cb73d9408c4720e230387d956eb0f829d8a4dd2c1055f96257167e14e7169074",
 					"value": {
